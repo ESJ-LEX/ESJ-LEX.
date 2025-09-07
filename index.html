@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESJ - Estrategias y Soluciones Jurídicas</title>
+    <meta name="description" content="Estudio Jurídico especializado en Derecho Familiar, Penal, Civil y Laboral. Profesionales comprometidos con soluciones efectivas.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/77241576-e6a5-4258-acda-5de54fcb88aa.png" type="image/x-icon">
+    <style>
+        .hero-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-900 bg-gray-50">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-gray-800">ESJ - Estrategias y Soluciones Jurídicas</h1>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#inicio" class="text-gray-700 hover:text-blue-600 transition">Inicio</a>
+                <a href="#acerca" class="text-gray-700 hover:text-blue-600 transition">Acerca de</a>
+                <a href="#servicios" class="text-gray-700 hover:text-blue-600 transition">Servicios</a>
+                <a href="#contacto" class="text-gray-700 hover:text-blue-600 transition">Contacto</a>
+            </nav>
+            <div class="md:hidden">
+                <button id="menu-toggle" class="text-gray-700 focus:outline-none">
+                    ☰
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white px-4 pb-4 shadow-lg">
+            <a href="#inicio" class="block py-2 text-gray-700 hover:text-blue-600 transition">Inicio</a>
+            <a href="#acerca" class="block py-2 text-gray-700 hover:text-blue-600 transition">Acerca de</a>
+            <a href="#servicios" class="block py-2 text-gray-700 hover:text-blue-600 transition">Servicios</a>
+            <a href="#contacto" class="block py-2 text-gray-700 hover:text-blue-600 transition">Contacto</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-bg text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/c62513fb-69de-46b7-b42e-2852ffd5d5d3.png" alt="Hero banner for ESJ law firm featuring a balanced scale of justice surrounded by legal documents and a modern city skyline in the background, symbolizing justice and professionalism" class="w-full max-w-4xl mx-auto mb-8 rounded-lg shadow-lg">
+            <h2 class="text-4xl md:text-6xl font-bold mb-4">Confianza y Experiencia en el Ámbito Jurídico</h2>
+            <p class="text-xl md:text-2xl mb-8">Especializados en Derecho Familiar, Penal, Civil y Laboral. Brindamos asesoría personalizada para soluciones efectivas.</p>
+            <a href="#contacto" class="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition">Contáctanos</a>
+        </div>
+    </section>
+
+    <!-- Acerca de Section -->
+    <section id="acerca" class="py-16 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-3xl font-bold mb-8 text-gray-800">Acerca de Nosotros</h3>
+            <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/b1060323-283e-4d87-a750-3c0eb84bd9f4.png" alt="Professional lawyer in a suit sitting at a desk with law books and a gavel, representing expertise and dedication in legal services" class="w-full max-w-md rounded-lg shadow-lg">
+                <div class="max-w-md">
+                    <p class="text-lg leading-relaxed">En ESJ, nuestro equipo de abogados altamente calificados se dedica a proporcionar estrategias jurídicas innovadoras y soluciones prácticas. Nos comprometemos a defender sus derechos con integridad, confidencialidad y excelencia en cada caso.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h3 class="text-3xl font-bold mb-12 text-center text-gray-800">Nuestras Áreas de Especialización</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="service-card bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/69381305-4916-4eec-9fea-89e5b30b42dd.png" alt="Family photo surrounded by legal documents symbolizing unity and protection in family law matters" class="w-full rounded mb-4">
+                    <h4 class="text-xl font-semibold mb-2">Derecho Familiar</h4>
+                    <p>Asesoría en divorcios, custodia, adopciones y asuntos familiares.</p>
+                </div>
+                <div class="service-card bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/35e70cea-a97b-41a5-bf74-0bcc77486cce.png" alt="Scales of justice with a gavel in a courtroom setting representing criminal law and defense strategies" class="w-full rounded mb-4">
+                    <h4 class="text-xl font-semibold mb-2">Derecho Penal</h4>
+                    <p>Defensa penal experta, procesos judiciales y representación legal.</p>
+                </div>
+                <div class="service-card bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/71c31063-a7ad-47f9-baa7-86f1f4d2ff30.png" alt="Legal contract and handshake illustrating civil law agreements and resolutions" class="w-full rounded mb-4">
+                    <h4 class="text-xl font-semibold mb-2">Derecho Civil</h4>
+                    <p>Resolución de contratos, daños y perjuicios, sucesiones civiles.</p>
+                </div>
+                <div class="service-card bg-white p-6 rounded-lg shadow-md text-center">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8f5638a3-58ad-43ca-8dcc-65c27e59fce3.png" alt="Workers engaged in office tasks with labor rights symbols like unions and safety equipment" class="w-full rounded mb-4">
+                    <h4 class="text-xl font-semibold mb-2">Derecho Laboral</h4>
+                    <p>Asesoría en contratos laborales, despidos, derechos obreros.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="py-16 bg-blue-50">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-3xl font-bold mb-8 text-gray-800">Contacto</h3>
+            <p class="text-lg mb-8">Estamos aquí para ayudarle. Comuníquese con nosotros a través de cualquier medio conveniente.</p>
+            <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-8 mb-8">
+                <a href="https://wa.me/59171777942" class="flex items-center space-x-2 bg-green-600 text-white px-6 py-3 rounded-full hover:bg-green-700 transition">
+                    <span>WhatsApp</span>
+                    <span>+591 71777942</span>
+                </a>
+                <a href="https://www.facebook.com/ESJEstudioJuridico" target="_blank" class="flex items-center space-x-2 bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition">
+                    <span>Facebook</span>
+                    <span>ESJ Estudio Jurídico</span>
+                </a>
+                <a href="mailto:ronaldgomez.lex@gmail.com" class="flex items-center space-x-2 bg-gray-600 text-white px-6 py-3 rounded-full hover:bg-gray-700 transition">
+                    <span>Correo</span>
+                    <span>ronaldgomez.lex@gmail.com</span>
+                </a>
+            </div>
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/169117e6-0db9-4341-a338-c196fdd5b3a3.png" alt="Contact section illustration showing a handshake between client and lawyer with office contact details in the background" class="w-full max-w-2xl mx-auto rounded-lg shadow-lg">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>© 2023 ESJ - Estrategias y Soluciones Jurídicas. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            var menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
+</content>
+</create_file>
